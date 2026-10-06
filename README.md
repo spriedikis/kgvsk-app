@@ -23,7 +23,7 @@ pip install pywebview
 ## Palaišana
  
 ```bash
-python gay.py
+python main.py
 ```
  
 ## Hostings
