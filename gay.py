@@ -4,7 +4,7 @@ import webview
 if __name__ == '__main__':
     webview.create_window(
         'Kauguru vidusskola App',
-        'https://eth0wlan.space',
+        'index.html',
         width=1200,
         height=900
     )

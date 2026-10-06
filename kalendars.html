@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Par mums – Kauguru vidusskola</title>
-  <meta name="description" content="Par Jūrmalas Kauguru vidusskolu un tās simboliem.">
+  <title>Kalendārs – Kauguru vidusskola</title>
+  <meta name="description" content="Jūrmalas Kauguru vidusskolas kalendārais plāns.">
 
   <!-- Telefons: krāsa joslai, ikona sākuma ekrānam, darbība kā lietotnei -->
   <meta name="theme-color" content="#0E2433">
@@ -38,8 +38,8 @@
         <ul>
         <li><a href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg><span>Sākums</span></a></li>
         <li><a href="jaunumi.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8.5h10M7 12h10M7 15.5h6"/></svg><span>Jaunumi</span></a></li>
-        <li><a href="info.html" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.6v.1"/></svg><span>Par mums</span></a></li>
-        <li><a href="kalendars.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>Kalendārs</span></a></li>
+        <li><a href="info.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.6v.1"/></svg><span>Par mums</span></a></li>
+        <li><a href="kalendars.html" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>Kalendārs</span></a></li>
         <li><a href="kon.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h3.5l2 5-2.4 1.6a11 11 0 0 0 5.3 5.3L15 13.5l5 2V19a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span>Kontakti</span></a></li>
         </ul>
       </nav>
@@ -49,37 +49,28 @@
   <main id="saturs">
     <div class="container">
       <header class="page-head">
-        <h1>Par mums</h1>
+        <h1>Kalendārais plāns</h1>
+        <p>Skolas pasākumi un svarīgie datumi.</p>
       </header>
 
-      <div class="mission">
-        <p>Jūrmalas Kauguru vidusskola ir mācību iestāde, kas garantē zināšanu, prasmju un iemaņu apgūšanu Latvijas Republikas Izglītības un zinātnes ministrijas prasību apjomā, kas audzina tikumīgu pilsoni, kurš spēj sekmīgi orientēties dzīves reālijās.</p>
-        <p>Atmosfērā, kur humāni izturas pret bērniem, strādā augstas kvalifikācijas speciālisti, kuri radoši pielieto mācību-audzināšanas procesā mūsdienīgas tehnoloģijas. Izglītības procesam piemīt audzinošs raksturs.</p>
-        <p>Skolas absolventi veiksmīgi integrējas sabiedrības dzīvē, saprot savas neatņemamās tiesības un ciena citu cilvēku tiesības.</p>
+      <div class="calendar-frame">
+        <iframe id="kalendars" title="Skolas kalendārs" src="https://calendar.google.com/calendar/embed?src=lm09omf5vbimu9sq7rovsoo6m4%40group.calendar.google.com&ctz=Europe%2FRiga&hl=lv&showTitle=0&showPrint=0&amp;mode=MONTH" loading="lazy"></iframe>
       </div>
 
-      <h2 class="section-title">Skolas simboli</h2>
-      <ul class="symbols">
-        <li>
-          <figure class="symbol">
-            <img src="logo.png" alt="Kauguru vidusskolas logo" loading="lazy">
-            <figcaption>Logo</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="symbol">
-            <img src="skolas-forma.png" alt="Kauguru vidusskolas skolas forma" loading="lazy">
-            <figcaption>Skolas forma</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="symbol">
-            <img src="kvs-karogs.png" alt="Kauguru vidusskolas karogs" loading="lazy">
-            <figcaption>KVS karogs</figcaption>
-          </figure>
-        </li>
-      </ul>
+      <p class="calendar-link">
+        <a class="btn btn-ghost" href="https://calendar.google.com/calendar/u/0/embed?src=lm09omf5vbimu9sq7rovsoo6m4@group.calendar.google.com&amp;ctz=Europe/Riga" target="_blank" rel="noopener noreferrer">Atvērt Google kalendārā</a>
+      </p>
     </div>
+
+    <script>
+      // Telefonā rāda sarakstu (ērtāk lasīt), datorā – mēneša skatu
+      (function () {
+        var frame = document.getElementById("kalendars");
+        if (window.matchMedia("(max-width: 760px)").matches) {
+          frame.src = frame.src.replace("mode=MONTH", "mode=AGENDA");
+        }
+      })();
+    </script>
   </main>
 </body>
 </html>
