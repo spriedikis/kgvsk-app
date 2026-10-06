@@ -861,3 +861,21 @@ main {
     opacity: 1;
   }
 }
+.site-footer {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 1rem 1rem calc(1rem + env(safe-area-inset-bottom, 0px));
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.site-footer a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
