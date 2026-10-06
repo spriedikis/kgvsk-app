@@ -1,16 +1,18 @@
-#  Kauguras skolas tīmekļa vietne
+# Kauguras skolas tīmekļa vietne
  
 Kauguras skolas tīmekļa vietne, kas darbojas kā darbvirsmas lietotne, izmantojot **pywebview**.
  
+ **Tiešsaistē:** [olux.eth0wlan.space](https://olux.eth0wlan.space)
+ 
 ---
  
-##  Prasības
+## Prasības
  
 Lai palaistu projektu, **obligāti** jābūt instalētam:
  
 - [Python 3](https://www.python.org/downloads/)
 - [pywebview](https://pywebview.flowrl.com/)
-##  Instalēšana
+## Instalēšana
  
 ```bash
 pip install pywebview
@@ -18,20 +20,21 @@ pip install pywebview
  
 > **Piezīme:** Linux sistēmās pywebview var būt nepieciešamas papildu bibliotēkas (piemēram, GTK vai Qt). Sīkāk skatiet [pywebview dokumentācijā](https://pywebview.flowrl.com/guide/installation.html).
  
-##  Palaišana
+## Palaišana
  
 ```bash
-python main.py
+python gay.py
 ```
  
-##  Hostings
+## Hostings
  
 | Parametrs | Vērtība |
 |-----------|---------|
 | Hostings  | **ETH0WLAN** |
 | Versija   | **OLUX EDITION** |
+| Domēns    | [olux.eth0wlan.space](https://olux.eth0wlan.space) |
  
-##  Autors
+## Autors
  
 **Aleksejs Vasilinenko**
  
