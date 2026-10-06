@@ -680,6 +680,43 @@ main {
 }
 
 /* =========================
+   KĀJENE
+   ========================= */
+
+/* Atstarpi zem cilņu joslas tagad nodrošina kājene, nevis main */
+body:has(.site-footer) main {
+  padding-bottom: 0;
+}
+
+.site-footer {
+  padding: 20px 24px calc(20px + var(--tab-h) + var(--safe-b));
+  border-top: 1px solid var(--line);
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--mist);
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: var(--foam);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.site-footer a:hover {
+  color: var(--amber);
+}
+
+.site-footer .sep {
+  margin: 0 8px;
+  opacity: 0.5;
+}
+
+/* =========================
    PLANŠETE
    ========================= */
 
@@ -860,22 +897,4 @@ main {
   .fx-smear b {
     opacity: 1;
   }
-}
-.site-footer {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  padding: 1rem 1rem calc(1rem + env(safe-area-inset-bottom, 0px));
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.site-footer a {
-  color: #fff;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.site-footer a:hover {
-  text-decoration: underline;
 }
