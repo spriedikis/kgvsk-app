@@ -10,7 +10,7 @@ Lai palaistu projektu, **obligāti** jābūt instalētam:
  
 - [Python 3](https://www.python.org/downloads/)
 - [pywebview](https://pywebview.flowrl.com/)
-## 📦 Instalēšana
+##  Instalēšana
  
 ```bash
 pip install pywebview
@@ -24,7 +24,7 @@ pip install pywebview
 python main.py
 ```
  
-## 🌐 Hostings
+##  Hostings
  
 | Parametrs | Vērtība |
 |-----------|---------|
